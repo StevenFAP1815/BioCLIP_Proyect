@@ -1,0 +1,1 @@
+# BioCLIP - Clasificación y recuperación multimodal de semillas mediante BioCLIP y aprendizaje por transferencia
