@@ -11,6 +11,9 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Dataset
+data/archive_listing.txt
+*.tar.gz
+*.zip
 data/raw/*
 data/processed/*
 
