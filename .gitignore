@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/*
+data/processed/*
+
+# Modelos y embeddings
+artifacts/checkpoints/*
+artifacts/embeddings/*
+
+# Resultados generados
+outputs/figures/*
+outputs/metrics/*
+outputs/reports/*
+artifacts/predictions/*
+
+# Configuración local
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
