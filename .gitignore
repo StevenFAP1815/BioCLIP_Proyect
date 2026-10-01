@@ -10,16 +10,27 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dataset
+# Dataset y archivos comprimidos
 data/archive_listing.txt
 *.tar.gz
 *.zip
+
+# Ignorar el contenido de las carpetas de datos
 data/raw/*
 data/processed/*
 
-# Modelos y embeddings
-artifacts/checkpoints/*
-artifacts/embeddings/*
+# Excepciones: Conservar archivos de configuración
+!data/processed/prepared_3/config.json
+
+# Excepciones: Conservar la estructura de directorios mediante .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/prepared_3/.gitkeep
+!data/processed/splits/.gitkeep
+
+# Resultados de experimentos y artefactos generados
+artifacts/
+outputs/
 
 # Resultados generados
 outputs/figures/*
